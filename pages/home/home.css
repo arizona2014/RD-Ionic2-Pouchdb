@@ -1,3 +1,14 @@
-
+.ios page-home .scroll-content, .md page-home .scroll-content {
+  background-color: #ecf0f1;
+  display: flex !important;
+  justify-content: center; }
+.ios page-home ion-list, .md page-home ion-list {
+  width: 90%; }
+.ios page-home ion-item-sliding, .md page-home ion-item-sliding {
+  margin-top: 20px;
+  border-radius: 20px; }
+.ios page-home ion-item, .md page-home ion-item {
+  border: none !important;
+  font-weight: bold !important; }
 
 /*# sourceMappingURL=home.css.map */
