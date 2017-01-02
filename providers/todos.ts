@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import PouchDB from 'pouchdb';
 
 /*
   Generated class for the Todos provider.
@@ -11,8 +12,41 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class Todos {
 
+  data:any;
+  db:any;
+  remote:any;
+
   constructor(public http: Http) {
-    console.log('Hello Todos Provider');
+
+    this.db = new PouchDB('ionpou');
+    this.remote = 'http://localhost:5984/ionpou';
+    let options = {
+      live: true,
+      retry: true,
+      continous: true
+    };
+    this.db.sync(this.remote, options);
+
+  }
+
+  getTodos() {
+
+  }
+
+  createTodo(todo){
+
+  }
+
+  updateTodo(todo){
+
+  }
+
+  deleteTodo(todo){
+
+  }
+
+  handleChange(change){
+
   }
 
 }
