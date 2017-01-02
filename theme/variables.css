@@ -1,20 +1,21 @@
 /*
-Error: File to import not found or unreadable: ionic.globals.
-        on line 5 of variables.scss
+Error: File to import not found or unreadable: ionicons.
+        on line 72 of variables.scss
 
-1: // Ionic Variables and Theming. For more info, please see:
-2: // http://ionicframework.com/docs/v2/theming/
-3: $font-path: "../assets/fonts";
-4: 
-5: @import "ionic.globals";
-6: 
-7: 
-8: // Shared Variables
-9: // --------------------------------------------------
-10: // To customize the look and feel of this app, you can override
+67: // Ionicons
+68: // --------------------------------------------------
+69: // The premium icon font for Ionic. For more info, please see:
+70: // http://ionicframework.com/docs/v2/ionicons/
+71: 
+72: @import "ionicons";
+73: 
+74: 
+75: // Fonts
+76: // --------------------------------------------------
+77: 
 
 Backtrace:
-variables.scss:5
+variables.scss:72
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -57,4 +58,4 @@ C:/Ruby22-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ionic.globals.\A         on line 5 of variables.scss\A \A 1: // Ionic Variables and Theming. For more info, please see:\A 2: // http://ionicframework.com/docs/v2/theming/\A 3: $font-path: \"../assets/fonts\";\A 4: \A 5: @import \"ionic.globals\";\A 6: \A 7: \A 8: // Shared Variables\A 9: // --------------------------------------------------\A 10: // To customize the look and feel of this app, you can override"; }
+  content: "Error: File to import not found or unreadable: ionicons.\A         on line 72 of variables.scss\A \A 67: // Ionicons\A 68: // --------------------------------------------------\A 69: // The premium icon font for Ionic. For more info, please see:\A 70: // http://ionicframework.com/docs/v2/ionicons/\A 71: \A 72: @import \"ionicons\";\A 73: \A 74: \A 75: // Fonts\A 76: // --------------------------------------------------\A 77: "; }
